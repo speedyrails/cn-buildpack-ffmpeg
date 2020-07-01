@@ -13,7 +13,7 @@ git clone https://github.com/speedyrails/cn-buildpack-ffmpeg.git
 2- Add the buildpack to the project:
 
 ```bash
-pack build myapp --builder heroku/buildpacks:18 --buildpack /path/to/sr-buildpacks-ffmpeg --path /path/to/myapp
+pack build myapp --builder heroku/buildpacks:18 --buildpack /path/to/cn-buildpack-ffmpeg --path /path/to/myapp
 ```
 
 **NOTE:**
